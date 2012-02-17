@@ -13,6 +13,8 @@ Requires:         R-stats
 Requires:         R-MASS 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats
 BuildRequires:    R-MASS 
+BuildRequires:    blas-devel
+BuildRequires:    lapack-devel
 
 %description
 Generalized Estimation Equation solver
