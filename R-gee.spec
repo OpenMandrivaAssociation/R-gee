@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          4.13_17
+Version:          4.13.18
 Release:          1
 Summary:          Generalized Estimation Equation solver
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_4.13-17.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/gee_4.13-18.tar.gz
 Requires:         R-stats 
 Requires:         R-MASS 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-stats
@@ -43,11 +43,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.13_17-1
-+ Revision: 775938
-- Import R-gee
-- Import R-gee
-
