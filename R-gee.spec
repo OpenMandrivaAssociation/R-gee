@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          4.13.18
-Release:          1
+Release:          2
 Summary:          Generalized Estimation Equation solver
 Group:            Sciences/Mathematics
 License:          GPL-2
